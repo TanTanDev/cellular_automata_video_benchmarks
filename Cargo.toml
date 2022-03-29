@@ -1,0 +1,17 @@
+[package]
+name = "cellular_automata_video_benchmarks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+criterion = "*" 
+
+[[bench]]
+name = "rules"
+harness = false
+
+[[bench]]
+name = "datatypes"
+harness = false
